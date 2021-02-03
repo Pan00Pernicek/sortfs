@@ -1,0 +1,14 @@
+#!/bin/sh
+input() {
+	cd $1
+	input=$1
+}
+use() {
+	echo $path
+	echo $@
+	for item in $@
+	do
+		mv $item $path
+	done
+}
+. ~/.config/sortfs/sortfs.conf
