@@ -1,5 +1,5 @@
 # sortfs
-sort automatically your files (and folders)
+sort automatically your files (and folders) from your config:
 
 `~/.config/sortfs/sortfs.conf`
 
