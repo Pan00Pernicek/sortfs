@@ -4,8 +4,10 @@ input() {
 	input=$1
 }
 use() {
-	echo $path
-	echo $@
+	echo task log:
+	echo "--> "For input "[$input] use:"
+	echo "-->	"Sorting to $path:
+	echo "-->		"Using: $@ 
 	for item in $@
 	do
 		mv $item $path
