@@ -10,7 +10,7 @@ use() {
 	echo "-->		"Using: $@ 
 	for item in $@
 	do
-		mv $item $path
+		mv "$item" "$path"
 	done
 }
 . ~/.config/sortfs/sortfs.conf
